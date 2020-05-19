@@ -1,0 +1,22 @@
+.close{
+    width: 24px; /*largura*/
+    height: 24px; /*altura*/
+    font-size: 8px; /*tamanho da fonte (X)*/
+    line-height: 24px;
+/*tamanho da linha que contem o texto -
+24 é o mesmo tamanho do botão para o X
+ficar alinhado no centro (cima-baixo)*/
+    text-align: center; /*alinhamento to texto no meio do botão (esq-dir)*/
+    position: relative; /*relativo para ficar por posicionado como está
+- acima e para fora da caixa de alerta*/
+    left: 8px; /*posição em relação à  linha da caixa de alerta - horizontal*/
+    top: -12px; /*posição em relação à  linha da caixa de alerta - vertical*/
+    /*float: left; desacopla o botão do resto dos componentes*/
+    border-radius: 50%; /*raio de circunferencia dos cantos - 50% faz cada lado ficar totalmente redondo, criando um botão circular*/
+    border: 1px solid #ccc; /*borda do botão*/
+    background-color: #ef3e2e; /*cor de fundo do botão*/
+    color: white; /*cor do text*/
+    transition: all 0.2s ease; /*animação que ocorre quando alguma ação é realizada*/
+    cursor: pointer; /*mostra o dedo de link mostrando que é clicável*/
+	margin-top:-23px;margin-right:-25px
+}
